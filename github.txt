@@ -1,0 +1,19 @@
+git init 
+
+git add README.md
+
+git config --global user.name "Dieudonne.MH"
+
+git config --global user.email "sangfaye@gmail.com"
+
+git status
+
+git add .
+
+git commit -m "mon projet"
+
+git remote add origin https://github.com/Dieudonne-MH/terraform-projets.git
+
+git push --set-upstream origin master
+
+git push -u origin master

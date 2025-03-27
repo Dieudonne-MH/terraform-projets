@@ -1,0 +1,6 @@
+TP-4 : Déployez nginx et enregistrez l’IP 
+
+◦ A partir du code du tp-3, vous allez le modifier pour installer nginx sur   votre VM 
+◦ Vous allez récupérer l’IP, id et la zone de disponibilité de la VM et vous les mettrez dans un fichier nommé infos_ec2.txt 
+◦ Supprimez vos ressources avec terraform destroy 
+◦ Créez un dossier tp-4 comme vous l’avez fait au tp-3 pour conserver votre code

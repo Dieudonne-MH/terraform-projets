@@ -1,0 +1,6 @@
+
+Terraform init => pour lancer nos configurations depuis le fichier ec2.tf
+Terraform plan => affichage du plan de modifications
+Terraform apply => pour appliquer nos modifications
+Après chaque modification => terraform plan, terraform apply
+Terraform destroy => pour supprimer notre déploiement

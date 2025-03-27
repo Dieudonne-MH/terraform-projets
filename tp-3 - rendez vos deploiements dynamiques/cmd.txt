@@ -1,0 +1,18 @@
+
+terraform init 
+
+terraform plan
+
+terraform apply
+
+mv "C:\Users\dieud\OneDrive\Bureau\Formation\Terraform\devops-dieudonne.pem" "C:\Users\dieud\OneDrive\Bureau\Formation\Terraform\terraform-projets\.secrets"
+
+ssh -i "../.secrets/devops-dieudonne.pem" ec2-user@ec2-50-17-118-186.compute-1.amazonaws.com
+
+cat /etc/*release
+
+exit
+
+terraform destroy
+
+terraform fmt

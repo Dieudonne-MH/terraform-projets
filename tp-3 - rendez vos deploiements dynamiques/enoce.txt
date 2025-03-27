@@ -1,0 +1,13 @@
+TP-3 : Déployez une infrastructure dynamique 
+
+◦ L’objectif est de déployer une instance ec2 avec une IP publique et un security group 
+◦ IP publique : vous allez créer une IP publique pour votre EC2 
+◦ Security Group: créez une security group pour ouvrir le port 80 et 443, attachez cette security group à votre IP publique 
+◦ EC2 
+•	Votre ec2 doit avoir une taille variabilisée, la valeur par défaut devrait être t2.nano et la valeur à surcharger sera t2.micro 
+•	L’image AMI à utiliser sera l’image la plus à jour de AMAZON LINUX 
+•	Spécifiez la key paire à utiliser (devops-votre prénom) 
+•	Attachez l’ip publique à votre instance  
+•	Variabilisez le Tag afin qu’il contienne au moins le tag : « Name: ec2- votre prénom» le N est bien en majuscule 
+◦ Supprimez vos ressources avec terraform destroy 
+◦ Créez un dossier tp-3 comme vous l’avez fait au tp-2 pour conserver votre code

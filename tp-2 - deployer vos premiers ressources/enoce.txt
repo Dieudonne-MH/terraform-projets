@@ -1,0 +1,10 @@
+TP-2 : Déployez votre Ressource AWS avec terraform 
+
+◦ Récupérez le secret et Access key de votre compte (dans les paramètres sécurité de votre compte dans IAM) 
+◦ Créez un pair de clé dans EC2 et nommez cette clé devops- votrepenom, un fichier devops- votrepenom.pem sera téléchargé (conservez la jalousement) 
+◦ Créez un fichier ec2.tf dans un répertoire nommé tp-2
+◦ Renseignez les informations permettant de créer une VM avec l’image CentOS suivante : centos7-minimal-v20190919.0.0 (ami 0083662ba17882949) 
+◦ ATTENTION nous travaillerons uniquement dans la region US East (N. Virginia) us-east-1 dans toute cette formation 
+◦ Vérifiez que votre instance est bien créée et observez le contenu de fichier tfstate ◦ Modifiez le fichier ec2.tf afin d’y inclure le tag de votre instance : “Name : ec2-votrepenom” 
+◦ Appliquez la modification et constatez les changements apportés ainsi que dans le fichier tfstate 
+◦ Supprimez votre ec2
