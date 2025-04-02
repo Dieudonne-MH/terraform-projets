@@ -1,0 +1,17 @@
+TP-1 : Installez terraform  
+
+◦ Installez Terraform en récupérant le binaire via le lien suivant : https://www.terraform.io/downloads.html 
+◦ Si vous êtes sous Windows, copiez le binaire dans un dossier de votre disque dur system par exemple C:\terraform\ 
+  ensuite il vous faudra rajouter le répertoire précèdent dans le PATH de votre système d’exploitation
+◦ Si vous êtes sous linux, vous pouvez le déplacer dans /usr/bin/ après l’avoir rendu exécutable 
+◦ Pour vérifies l’installation, veuillez juste entrez la commande terraform et l’aide apparaitra !
+
+
+Installation de terraform sur CentOS
+
+sudo yum install unzip wget
+
+sudo wget https://releases.hashicorp.com/terraform/1.11.2/terraform_1.11.2_linux_amd64.zip
+
+sudo unzip ./terraform_1.11.2_linux_amd64.zip -d /usr/local/bin/terraform
+
